@@ -21,7 +21,7 @@
     </div>-->
 
     <div class="row">
-        <div class="col-3">
+        <div class="col-3" style="padding: 1.25rem">
             <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" class="rounded-circle">
         </div>
 
