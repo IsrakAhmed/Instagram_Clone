@@ -22,11 +22,16 @@
 
     <div class="row">
         <div class="col-3" style="padding: 1.25rem">
-            <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" class="rounded-circle">
+            <img height="150px" src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" class="rounded-circle">
         </div>
 
         <div class="col-9">
-        
+            <div><h1>Israk Ahmed</h1></div>
+            <div>
+                <div><strong>153</strong> Posts</div>
+                <div><strong>65445</strong> Followers</div>
+                <div><strong>3</strong> Following</div>
+            </div>
         </div>
     </div>
 </div>
