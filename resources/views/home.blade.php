@@ -21,16 +21,16 @@
     </div>-->
 
     <div class="row">
-        <div class="col-3" style="padding: 1.25rem">
+        <div class="col-3 pt-4">
             <img height="150px" src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" class="rounded-circle">
         </div>
 
-        <div class="col-9">
+        <div class="col-9 pt-5">
             <div><h1>Israk Ahmed</h1></div>
-            <div>
-                <div><strong>153</strong> Posts</div>
-                <div><strong>65445</strong> Followers</div>
-                <div><strong>3</strong> Following</div>
+            <div class="d-flex">
+                <div style="padding-right: 0.75rem;"><strong>153</strong> Posts</div>
+                <div style="padding-right: 0.75rem;"><strong>65k</strong> Followers</div>
+                <div style="padding-right: 0.75rem;"><strong>3</strong> Following</div>
             </div>
         </div>
     </div>
