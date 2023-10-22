@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    <!--<div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
@@ -17,6 +17,16 @@
                     {{ __('You are logged in!') }}
                 </div>
             </div>
+        </div>
+    </div>-->
+
+    <div class="row">
+        <div class="col-3">
+            <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" class="rounded-circle">
+        </div>
+
+        <div class="col-9">
+        
         </div>
     </div>
 </div>
