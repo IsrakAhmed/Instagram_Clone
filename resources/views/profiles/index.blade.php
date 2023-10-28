@@ -43,17 +43,13 @@
     </div>
 
     <div class="row pt-5" style="text-align: center;">
-        <div class="col-4">
-        <img src="/post/inTajHat.jpg" height="350px">
-        </div>
 
-        <div class="col-4">
-        <img src="/post/durgaPuja2022.jpg" height="350px">
-        </div>
+        @foreach($user->posts as $post)
+            <div class="col-4">
+            <img src="/storage/{{ $post->image }}" height="350px">
+            </div>
+        @endforeach
 
-        <div class="col-4">
-        <img src="/post/icpc.jpg" height="350px">
-        </div>
     </div>
 
 
