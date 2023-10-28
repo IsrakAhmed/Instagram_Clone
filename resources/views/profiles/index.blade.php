@@ -32,7 +32,7 @@
             </div>
 
             <div class="d-flex">
-                <div style="padding-right: 1.25rem;"><strong>153</strong> Posts</div>
+                <div style="padding-right: 1.25rem;"><strong>{{ $user->posts->count() }}</strong> Posts</div>
                 <div style="padding-right: 1.25rem;"><strong>65k</strong> Followers</div>
                 <div style="padding-right: 1.25rem;"><strong>3</strong> Following</div>
             </div>
