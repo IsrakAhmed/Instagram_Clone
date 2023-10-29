@@ -13,7 +13,7 @@ class Profile extends Model
 
     public function profileImage()
     {
-        return ($this->image) ? '/storage/' . $this->image : 'https://t4.ftcdn.net/jpg/04/00/24/31/360_F_400243185_BOxON3h9avMUX10RsDkt3pJ8iQx72kS3.jpg';
+        return ($this->image) ? '/storage/'.$this->image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6TohhHft0Z-OnMClzUAcvjN5YVJXXcN2SjQ&usqp=CAU';
     }
 
     public function user()
