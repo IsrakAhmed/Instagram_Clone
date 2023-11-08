@@ -16,6 +16,11 @@ class Profile extends Model
         return ($this->image) ? '/storage/'.$this->image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6TohhHft0Z-OnMClzUAcvjN5YVJXXcN2SjQ&usqp=CAU';
     }
 
+    public function followers()
+    {
+        return $this->belongsToMany(User::class);
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
