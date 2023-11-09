@@ -29,8 +29,8 @@
 
             <div class="d-flex">
                 <div style="padding-right: 1.25rem;"><strong>{{ $user->posts->count() }}</strong> Posts</div>
-                <div style="padding-right: 1.25rem;"><strong>65k</strong> Followers</div>
-                <div style="padding-right: 1.25rem;"><strong>3</strong> Following</div>
+                <div style="padding-right: 1.25rem;"><strong>{{ $user->profile->followers->count() }}</strong> Followers</div>
+                <div style="padding-right: 1.25rem;"><strong>{{ $user->following->count() }}</strong> Following</div>
             </div>
             <div class="pt-4" style="font-weight: bold;">{{ $user->profile->title }}</div>
             <div>{{ $user->profile->description }}</div>
